@@ -174,7 +174,7 @@ var writeZonesFile = function() {
 	fs.writeFile('../src/data/zones.js', 'tw.data.zones = ' + stringifyResult + '; tw.data.averageValues = ' + averageValuesStringifyResult + ';');
 };
 
-async.eachLimit(['hn.csv', 'Wasserdaten Landkreis Heilbronn.csv'], 1, convertCsv, function(err) {
+async.eachLimit(['hn.csv', 'wasserdaten_paderborn.csv'], 1, convertCsv, function(err) {
 	if (err) {
 		console.log(err);
 		process.exit(1);

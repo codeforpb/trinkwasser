@@ -22,7 +22,7 @@ var generateZoneId = function(line) {
 	return idParts.join(' ');
 };
 
-csv().from('Wasserdaten Landkreis Heilbronn.csv').to.array(function(data) {
+csv().from('wasserdaten_paderborn.csv').to.array(function(data) {
 	delete data[0];
 
 	var locations = {};
