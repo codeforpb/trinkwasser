@@ -95,7 +95,7 @@ var convertLine = function(lineValue) {
 };
 
 var convert = function() {
-	var rawData = fs.readFileSync('hn-haerte-je-strasse.raw.txt', {
+	var rawData = fs.readFileSync('pb-haerte-je-strasse.raw.txt', {
 		'encoding': 'utf8'
 	});
 	var rawDataLines = rawData.toString().split(/\r?\n/);
@@ -155,7 +155,7 @@ var writeResult = function() {
 		}
 	};
 
-	var csvWriter = csv().to.path('hn.csv');
+	var csvWriter = csv().to.path('pb.csv');
 	Object.keys(result).forEach(appendStreet);
 	csvWriter.end();
 };

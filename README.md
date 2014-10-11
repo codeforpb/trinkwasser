@@ -9,6 +9,6 @@ Online-Version: http://opendatalab.de/projects/trinkwasser/
 Datenquellen:
 ==================
 
-* Stadtwerke Heilbronn: https://www.stadtwerke-heilbronn.de/index/hsw/Wasserh%C3%A4rte.html
+* qStadtwerke Heilbronn: https://www.stadtwerke-heilbronn.de/index/hsw/Wasserh%C3%A4rte.html
 * Stadtwerke Neckarsulm: http://www.sw-neckarsulm.de/main/produkte/trinkwasser/wasseranalyse.html
 * Webseiten der Gemeinden im Landkreis Heilbronn

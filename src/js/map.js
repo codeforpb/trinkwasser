@@ -28,7 +28,7 @@
 			return z(tw.utils.getMeanValue(d.properties.haertegrad));
 		});
 
-		var hnZones = {
+		var pbZones = {
 			'14-18': tw.data.zones['Heilbronn 14-18'],
 			'14': tw.data.zones['Heilbronn 14'],
 			'10': tw.data.zones['Heilbronn 10'],
@@ -37,15 +37,15 @@
 
 		this.update = function(attribute) {
 			var values = [];
-			Object.keys(hnZones).forEach(function(hnZone) {
-				values.push(tw.utils.getMeanValue(hnZones[hnZone][attribute]));
+			Object.keys(pbZones).forEach(function(pbZone) {
+				values.push(tw.utils.getMeanValue(pbZones[pbZone][attribute]));
 			});
 
 			z = d3.scale.linear().domain([d3.min(values), d3.max(values)]).range(['#2166ac', '#b2182b']);
 			svg.select('.zones').selectAll('path').transition().duration(300).ease('outCirc').attr('stroke', function(d) {
-				var hnZone = hnZones[d.properties.haertegrad];
-				if (hnZone) {
-					return z(tw.utils.getMeanValue(hnZone[attribute]));
+				var pbZone = pbZones[d.properties.haertegrad];
+				if (pbZone) {
+					return z(tw.utils.getMeanValue(pbZone[attribute]));
 				}
 			});
 		};
@@ -54,10 +54,10 @@
 	var mapInstance = null;
 
 	var init = function() {
-		$.getJSON('data/gemeinden_simplify20_hn.geojson', function(data) {
+		$.getJSON('data/gemeinden_simplify20_pb.geojson', function(data) {
 			areaData = data;
-			$.getJSON('data/hn-streets.geojson', function(hnData) {
-				zoneData = hnData;
+			$.getJSON('data/pb-streets.geojson', function(pbData) {
+				zoneData = pbData;
 				mapInstance = new Map(d3.select('.map-img'));
 			});
 		});
