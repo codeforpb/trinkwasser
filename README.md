@@ -5,7 +5,7 @@ Trinkwasser Visualisierung: Härtegrad, Bestandteile und Kosten
 * Um die Daten in der html-Seite zu aktualisieren, müssen die .js-Dateien in src/data mit neuen Daten gefütter werden (aktuell noch manuell, später automatisch mit Skripten)
 * Anschließend "grunt build" ausführen und im Verzeichnis dist befindet sich die fertige Seite.
 
-Online-Version: http://opendatalab.de/projects/trinkwasser/
+Ursprüngliche Version: http://opendatalab.de/projects/trinkwasser/
 
 Datenquellen:
 ==================
