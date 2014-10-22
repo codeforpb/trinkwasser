@@ -45,28 +45,28 @@ tw.data.referenceWaters = {
                 "calcium": 421.0,
                 "magnesium": 43.0,
                 "chlorid": 11.0,
-                "nitrat": -1, 
+                "nitrat": 0, 
                 "sulfat": 950.0,
                 "sources": ["http://www.carolinen.de/produktwelt/mineralwasser/medium.html"]
         },
         "warburger": {
                 "natrium": 26.1,
-                "kalium": -1,
+                "kalium": 0,
                 "calcium": 253.0,
                 "magnesium": 49.2,
                 "chlorid": 18.0,
-                "nitrat": 0.-1, 
+                "nitrat": 0, 
                 "sulfat": 367.9,
                 "sources": ["http://www.warburger-waldquell.de/index.php/produkte"]
         }, 
         "saskia-med-jessen": {
                 "natrium": 24.5,
-                "kalium": -1,
+                "kalium": 0,
                 "calcium": 41.6, 
                 "magnesium": 6.1,
                 "chlorid": 10.9,  
                 "nitrat": 0.5,
-                "sulfat": -1,
+                "sulfat": 0,
                 "sources": ["Flasche"]
         }
 
