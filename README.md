@@ -1,8 +1,9 @@
 Trinkwasser Visualisierung: Härtegrad, Bestandteile und Kosten
 =======================
 
-* Im Verzeichnis converter/ befinden sich die Rohdaten + kleine Skripte, die diese Rohdaten für die Webansicht aufbereiten
-* Im Verzeichnis src/ befinden sich die HTML, CSS und JavaScript Dateien + die aufbereiteten Daten für die Visualisierung. Nach Änderungen einfach grunt gh-pages ausführen, um die Online-Version zu aktualisieren.
+* Im Verzeichnis src/ befinden sich die HTML, CSS und JavaScript Dateien + die aufbereiteten Daten für die Visualisierung. 
+* Um die Daten in der html-Seite zu aktualisieren, müssen die .js-Dateien in src/data mit neuen Daten gefütter werden (aktuell noch manuell, später automatisch mit Skripten)
+* Anschließend "grunt build" ausführen und im Verzeichnis dist befindet sich die fertige Seite.
 
 Online-Version: http://opendatalab.de/projects/trinkwasser/
 
