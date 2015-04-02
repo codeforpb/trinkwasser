@@ -16,8 +16,8 @@ tw.data.zones = {
 	"Marienloh": wasserwerkDiebesweg,
 	"Paderborn Zentrum": wasserwerkDiebesweg,
 	"Paderborn Südstadt": wasserwerkAabach
-
 };
+
 tw.data.averageValues = {
 	"natrium": 8.2,
 	"kalium": 1.5,

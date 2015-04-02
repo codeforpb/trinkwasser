@@ -3,5 +3,5 @@ tw.data.locations = {
 		"Zentrum": {},
 		"Südstadt": {}
 	},
-	"Marienloh"
+	"Marienloh": {}
 };
