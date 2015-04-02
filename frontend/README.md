@@ -46,3 +46,8 @@ Example:
 };```
 
 Note, how the hierarchy from tw.data.locations is reflected in here and used as a key.
+
+Test the updated data
+=======================
+
+It seems to work that you open ```./src/index.html``` in a browser without starting a server. You'll need to reload after updating data files to see the changes.
