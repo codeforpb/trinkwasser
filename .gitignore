@@ -11,3 +11,6 @@ dist
 libpeerconnection.log
 node_modules
 .grunt
+.idea
+*.iml
+components

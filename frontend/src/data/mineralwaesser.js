@@ -38,38 +38,7 @@ tw.data.referenceWaters = {
 		"nitrat": 0.1,
 		"sulfat": 120,
 		"sources": ["http://books.google.de/books?id=lzEoGWyqMBwC&pg=PA198&lpg=PA198&dq=volvic+nitratgehalt&source=bl&ots=pJEE0i9HwK&sig=OI_PeSr_QGBCfpeVCu70N4ohy8g&hl=de&ei=4-yvSuHrJ8jK_gbV0p3ZDA&sa=X&oi=book_result&ct=result&resnum=6#v=onepage&q&f=false"]
-	},
-        "carolinen-med": {
-                "natrium": 14.8,
-                "kalium": 4.3,
-                "calcium": 421.0,
-                "magnesium": 43.0,
-                "chlorid": 11.0,
-                "nitrat": 0, 
-                "sulfat": 950.0,
-                "sources": ["http://www.carolinen.de/produktwelt/mineralwasser/medium.html"]
-        },
-        "warburger": {
-                "natrium": 26.1,
-                "kalium": 0,
-                "calcium": 253.0,
-                "magnesium": 49.2,
-                "chlorid": 18.0,
-                "nitrat": 0, 
-                "sulfat": 367.9,
-                "sources": ["http://www.warburger-waldquell.de/index.php/produkte"]
-        }, 
-        "saskia-med-jessen": {
-                "natrium": 24.5,
-                "kalium": 0,
-                "calcium": 41.6, 
-                "magnesium": 6.1,
-                "chlorid": 10.9,  
-                "nitrat": 0.5,
-                "sulfat": 0,
-                "sources": ["Flasche"]
-        }
-
+	}
 };
 
 tw.data.nutrientDailyDosis = {
