@@ -1,15 +1,18 @@
 Frontend
-=======================
+========
 
-Use `gulp` to start a local development server with livereload enabled
+Zum testen einach ```./src/index.html``` in einem Webbrowser öffnen. Ein Web-
+Server ist nicht notwendig.
+
+Wenn die Daten aktualisiert werden, muss die Seite neu geladen werden.
 
 
-Update data
-=======================
+Daten aktualisieren
+===================
 
-The data files are located in ```./src/data/```. 
+Die Daten befinden sich in ```./src/data/```. 
 
-```locations.js``` contains a hierarchy of city areas. Example:
+```locations.js``` enthält eine Hierarchie der belieferten Bezirke. Beispiel:
 
 ```json
 tw.data.locations = {
@@ -17,15 +20,18 @@ tw.data.locations = {
 		"Zentrum": {},
 		"Südstadt": {}
 	},
-	"Marienloh":{}
+	"Marienloh": {}
 };
 ```
 
-Note, that the lowest hierarchy must be terminated with an empty object.
+**Anmerkung:** Man muss die untersten Bezirke auf ein leeres Element zeigen lassen; siehe "Marienloh" oder "Paderborn Zentrum".
 
-TODO: clarify, how many hierarchy levels are supported.
+```zones.js``` enthält die verschiedenen Wasserwerke und ihre Daten zur 
+Wasserqualität. In der Datei werden erst die Wasserwerke definiert. 
+Anschließend werden die Bezirke aus der ```locations.js``` einem der 
+Wasserwerke zugewiesen.
 
-```zones.js``` contains the definition of different water works and their water quality data. After the definitions of these water works, the map tw.data.zones maps city areas to the corresponding water work.
+Hierzu wird die "Hierarchie-Kette" aus der ```locations.js``` benutzt: "Marienloh" hat keine Unterpunkte und bleibt "Marienloh". "Paderborn" hingegen hat zwei Unterpunkte, weshalb "Paderborn Zentrum" und "Paderborn Südstadt" einem der Wasserwerke zugewiesen werden müssen
 
 Example:
 ```json
@@ -48,10 +54,3 @@ tw.data.zones = {
 	"Paderborn Südstadt": wasserwerkAabach
 };
 ```
-
-Note, how the hierarchy from tw.data.locations is reflected in here and used as a key.
-
-Test the updated data
-=======================
-
-It seems to work that you open ```./src/index.html``` in a browser without starting a server. You'll need to reload after updating data files to see the changes.
