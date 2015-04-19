@@ -1,14 +1,14 @@
 Trinkwasser Visualisierung: Härtegrad, Bestandteile und Kosten
 =======================
 
-* Im Verzeichnis converter/ befinden sich die Rohdaten + kleine Skripte, die diese Rohdaten für die Webansicht aufbereiten
-* Im Verzeichnis src/ befinden sich die HTML, CSS und JavaScript Dateien + die aufbereiteten Daten für die Visualisierung. Nach Änderungen einfach grunt gh-pages ausführen, um die Online-Version zu aktualisieren.
+* Im Verzeichnis parser/ wird sich später Skript/Programm befinden, dass die 
+aktuellen Daten von http://www.wasserwerke-paderborn.de/index.php?navID=2 
+parst und für das frontend aufbereitet
+* Im Verzeichnis frontend/ befinden sich die HTML, CSS und JavaScript Dateien inklusive der aufbereiteten Daten für die Visualisierung.
 
-Online-Version: http://opendatalab.de/projects/trinkwasser/
+Online-Version: Noch nicht vorhanden
 
 Datenquellen:
 ==================
 
-* Stadtwerke Heilbronn: https://www.stadtwerke-heilbronn.de/index/hsw/Wasserh%C3%A4rte.html
-* Stadtwerke Neckarsulm: http://www.sw-neckarsulm.de/main/produkte/trinkwasser/wasseranalyse.html
-* Webseiten der Gemeinden im Landkreis Heilbronn
+* Stadtweke Paderborn: http://www.wasserwerke-paderborn.de/index.php?navID=2
