@@ -54,3 +54,9 @@ tw.data.zones = {
 	"Paderborn Südstadt": wasserwerkAabach
 };
 ```
+
+Veröffentlichen der Anwendung
+=============================
+
+Zum Veröffentlichen muss einfach das Verzeichnis frontend/src/ auf einen 
+beliebigen Webserver kopiert werden. 
