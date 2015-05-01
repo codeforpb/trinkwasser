@@ -1,7 +1,23 @@
 tw.data.locations = {
+	"Alfen": {},
+	"Bad Lippspringe": {},
+	"Benhausen": {},
+	"Borchen": {},
+	"Dahl": {},
+	"Dörenhagen": {},
+	"Etteln": {},
+	"Elsen": {},
+	"Marienloh": {},
+	"Neuenbeken": {},
+	"Kirchborchen": {},
+	"Nordborchen": {},
 	"Paderborn": {
 		"Zentrum": {},
 		"Südstadt": {}
 	},
-	"Marienloh": {}
+	"Sande": {},
+	"Schloß Hamborn": {},
+	"Schloß Neuhaus": {},
+	"Sennelager": {},
+	"Wewer": {}
 };
